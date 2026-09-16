@@ -1,0 +1,28 @@
+:root {
+  --utec-cyan: #00aeef;
+  --utec-blue: #003d66;
+  --utec-light: #eaf8fd;
+  --line: #d9e2ec;
+}
+
+body { background: #f5f8fb; color: #374151; }
+.navbar { background: var(--utec-blue); }
+.brand-subtitle { color: #d9f4ff; font-size: .78rem; }
+.text-utec { color: #007eae; }
+.text-institutional, .panel-title, .stat-number { color: var(--utec-blue); }
+.stat-card, .panel-card { border: 1px solid var(--line); border-radius: 14px; background: #fff; box-shadow: 0 5px 16px rgba(0, 61, 102, .05); }
+.stat-card { padding: 1rem; height: 100%; }
+.stat-label { color: #64748b; font-size: .78rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.stat-number { font-size: 1.7rem; font-weight: 800; }
+.panel-card { overflow: hidden; }
+.panel-title { font-weight: 750; }
+.table > :not(caption) > * > * { padding: .85rem .75rem; }
+.ranking-item { border-bottom: 1px solid var(--line); padding: .9rem 0; }
+.ranking-item:last-child, .subject-item:last-child { border-bottom: 0; }
+.ranking-position { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--utec-light); color: #007eae; font-size: .85rem; font-weight: 800; }
+.ranking-position.first { background: #d9f4ff; color: var(--utec-blue); }
+.average { color: var(--utec-blue); font-size: 1.1rem; font-weight: 800; }
+.status-active { background: #dcfce7; color: #166534; }
+.status-follow { background: #fff7ed; color: #9a3412; }
+.subject-item { border-bottom: 1px solid var(--line); padding: .65rem 0; }
+.loading-box { padding: 3rem 1rem; color: #64748b; text-align: center; }
